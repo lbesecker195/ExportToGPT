@@ -38,5 +38,11 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lbesecker195/ExportToGPT.git"
+  },
+  "bin": {
+    "ExportToGPT": "ExportToGPT.js"
+  },
+  "scripts": {
+    "ExportToGPT": "ExportToGPT.js"
   }
 }
