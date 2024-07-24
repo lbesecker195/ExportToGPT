@@ -1,0 +1,38 @@
+{
+  "name": "exporttogpt",
+  "version": "1.0.0",
+  "description": "\"Export to GPT\" is a utility tool designed to streamline the process of using ChatGPT for development and debugging. It simplifies the task of identifying and copying relevant project files and their directory structures, making it easy to paste them into ChatGPT prompts.",
+  "main": "exportToGPT.js",
+  "scripts": {
+    "test": "exporttogpt ./ routes/index.js"
+  },
+  "keywords": [
+    "chatgpt",
+    "gpt",
+    "openai",
+    "development",
+    "debugging",
+    "nodejs",
+    "javascript",
+    "framework",
+    "express",
+    "react",
+    "vue",
+    "angular",
+    "koa",
+    "nestjs",
+    "dependency resolution",
+    "project files",
+    "copy paste",
+    "automation",
+    "code analysis",
+    "cli tool"
+  ],
+  "author": "Logan Besecker",
+  "license": "MIT",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "glob": "^11.0.0",
+    "path": "^0.12.7"
+  }
+}
