@@ -5,7 +5,7 @@
 Great for software development using ChatGPT as well as using ChatGPT to debug!
 
 Simply:
-1) `ExportToGPT ./project /desired/file`
+1) `exporttogpt "./project" "/desired/file"`
 2) Copy the generated SYSTEM prompt.
 3) Paste the SYSTEM prompt into your favorite LLM.
 4) Enter your development/debugging related instructions in the USER prompt.
@@ -24,7 +24,7 @@ Simply:
 To install `ExportToGPT.js` globally, run:
 
 ```bash
-npm install -g ExportToGPT.js
+npm install -g exporttogpt
 ```
 
 ## Usage
@@ -32,7 +32,7 @@ npm install -g ExportToGPT.js
 To use the tool, run:
 
 ```bash
-ExportToGPT.js <project_directory> <filename>
+exporttogpt <project_directory> <filename>
 ```
 
 ### Example Input
@@ -40,13 +40,13 @@ ExportToGPT.js <project_directory> <filename>
 **Current Directory:**
 
 ```bash
-ExportToGPT.js ./ src/index.js
+exporttogpt "./" "src/index.js"
 ```
 
 **Absolute Directory:**
 
 ```bash
-ExportToGPT.js /path/to/project src/index.js
+exporttogpt "/path/to/project" "src/index.js"
 ```
 
 ## Example Output
