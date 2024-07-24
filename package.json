@@ -1,6 +1,6 @@
 {
   "name": "exporttogpt",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "\"Export to GPT\" is a utility tool designed to streamline the process of using ChatGPT for development and debugging. It simplifies the task of identifying and copying relevant project files and their directory structures, making it easy to paste them into ChatGPT prompts.",
   "main": "exportToGPT.js",
   "scripts": {
