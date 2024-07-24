@@ -1,11 +1,11 @@
-# exportToGPT.js
+# ExportToGPT.js
 
-`exportToGPT.js` is a utility designed to streamline the process of using ChatGPT for programming, development, and debugging. It simplifies the task of identifying and copying relevant project files and their directory structures, making it easy to paste them into ChatGPT (and other LLM based) prompts.
+`ExportToGPT.js` is a utility designed to streamline the process of using ChatGPT for programming, development, and debugging. It simplifies the task of identifying and copying relevant project files and their directory structures, making it easy to paste them into ChatGPT (and other LLM based) prompts.
 
 Great for software development using ChatGPT as well as using ChatGPT to debug!
 
 Simply:
-1) `exportToGPT ./project /desired/file`
+1) `ExportToGPT ./project /desired/file`
 2) Copy the generated SYSTEM prompt.
 3) Paste the SYSTEM prompt into your favorite LLM.
 4) Enter your development/debugging related instructions in the USER prompt.
@@ -21,10 +21,10 @@ Simply:
 
 ## Installation
 
-To install `exportToGPT.js` globally, run:
+To install `ExportToGPT.js` globally, run:
 
 ```bash
-npm install -g exportToGPT.js
+npm install -g ExportToGPT.js
 ```
 
 ## Usage
@@ -32,7 +32,7 @@ npm install -g exportToGPT.js
 To use the tool, run:
 
 ```bash
-exportToGPT.js <project_directory> <filename>
+ExportToGPT.js <project_directory> <filename>
 ```
 
 ### Example Input
@@ -40,13 +40,13 @@ exportToGPT.js <project_directory> <filename>
 **Current Directory:**
 
 ```bash
-exportToGPT.js ./ src/index.js
+ExportToGPT.js ./ src/index.js
 ```
 
 **Absolute Directory:**
 
 ```bash
-exportToGPT.js /path/to/project src/index.js
+ExportToGPT.js /path/to/project src/index.js
 ```
 
 ## Example Output
@@ -93,11 +93,11 @@ If there are more than 5 files, the specified input file is printed at both the 
 
 ## How It Enhances ChatGPT Usage
 
-`exportToGPT.js` makes it easier to provide ChatGPT with the context it needs to assist in development and debugging. By structuring and filtering relevant files, you can ensure that ChatGPT has the necessary information to provide accurate and helpful responses.
+`ExportToGPT.js` makes it easier to provide ChatGPT with the context it needs to assist in development and debugging. By structuring and filtering relevant files, you can ensure that ChatGPT has the necessary information to provide accurate and helpful responses.
 
 ### Enhanced Context Management
 
-With its ability to print the specified input file at both the start and the end of the output when there are more than 5 files, `exportToGPT.js` ensures that important context is retained, improving the quality of assistance provided by ChatGPT.
+With its ability to print the specified input file at both the start and the end of the output when there are more than 5 files, `ExportToGPT.js` ensures that important context is retained, improving the quality of assistance provided by ChatGPT.
 
 ### Supports Various Frameworks
 
@@ -110,7 +110,7 @@ The tool supports a range of popular JavaScript frameworks, making it versatile 
 
 ## Contributing
 
-Contributions are welcome! If you have any issues or feature requests, feel free to open an issue or submit a pull request on our [GitHub repository](https://github.com/yourusername/exportToGPT.js).
+Contributions are welcome! If you have any issues or feature requests, feel free to open an issue or submit a pull request on our [GitHub repository](https://github.com/yourusername/ExportToGPT.js).
 
 ### Steps to Contribute:
 
